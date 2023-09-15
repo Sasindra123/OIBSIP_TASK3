@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>TO-DO List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>
+          To-Do List
+          <svg
+            width="512"
+            height="512"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon"
+          >
+            <path
+              fill="#22c55e"
+              d="M17 2h3a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h3V0h2v2h6V0h2v2Zm0 2v2h-2V4H9v2H7V4H5v16h14V4h-2ZM7 8h10v2H7V8Zm0 4h10v2H7v-2Z"
+            />
+          </svg>
+        </h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Enter your Tasks" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container"></ul>
+      </div>
+    </div>
+    <script src="script1.js"></script>
+  </body>
+</html>
